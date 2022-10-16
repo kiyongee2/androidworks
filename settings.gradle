@@ -16,3 +16,4 @@ rootProject.name = "HiApp"
 include ':app'
 include ':app_intent'
 include ':stopwatch'
+include ':navigation'
