@@ -32,7 +32,7 @@ public class ex3Activity extends AppCompatActivity {
         img1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "이미지가 눌러졌습니다.",
+                Toast.makeText(ex3Activity.this, "이미지가 눌러졌습니다.",
                         Toast.LENGTH_SHORT).show();
             }
         });

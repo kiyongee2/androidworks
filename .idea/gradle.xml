@@ -12,8 +12,11 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/app_intent" />
+            <option value="$PROJECT_DIR$/fragmentexam" />
+            <option value="$PROJECT_DIR$/myfragments" />
             <option value="$PROJECT_DIR$/navigation" />
             <option value="$PROJECT_DIR$/stopwatch" />
+            <option value="$PROJECT_DIR$/viewbindingexam" />
           </set>
         </option>
       </GradleProjectSettings>
