@@ -10,9 +10,8 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btnMove;
+    private Button btnNext;
     private EditText editText;
-    private String str;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,16 +19,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         editText = findViewById(R.id.editText);
-        btnMove = findViewById(R.id.btnMove);
+        btnNext = findViewById(R.id.btnNext);
 
-        Intent intent = getIntent();
-
-        btnMove.setOnClickListener(new View.OnClickListener() {
+        btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                str = editText.getText().toString();
+                String str = editText.getText().toString();
                 Intent intent = new Intent(MainActivity.this, SubActivity.class);
-                //intent.putExtra("str", str); //model
+                intent.putExtra("str", str); //model - sub page로 str 보냄
                 startActivity(intent);
             }
         });

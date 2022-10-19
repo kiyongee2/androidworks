@@ -8,16 +8,10 @@
     tools:context=".SubActivity">
 
     <TextView
-        android:id="@+id/tvSub"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:text="Sub 페이지 입니다." />
-
-    <Button
-        android:id="@+id/btnPrev"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="이전 화면 이동" />
 
 </LinearLayout>
